@@ -1,0 +1,43 @@
+body {
+    background-color: #bbc4bd;
+    font-family: "Michroma", sans-serif;
+    margin: 0%;
+    cursor:
+        url(cursor_1.gif),
+        auto;
+}
+
+img {
+    border-radius: 0%;
+    }
+
+p {
+    margin: 20px;
+} 
+
+a:link {
+    color: hsl(133, 7%, 15%);
+    text-decoration: none;
+}
+
+a:visited {
+    color: hsl(133, 7%, 15%);
+}
+
+a:hover {
+    color: hsl(133, 7%, 45%);
+    cursor: url(cursor_3.gif),
+        auto;
+}
+
+h1 {
+    color: hsl(133, 7%, 10%);
+    font-style: italic;
+    font-family: "Rubik Glitch", system-ui;
+    font-size: 90px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-weight: normal;
+}
