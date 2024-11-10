@@ -1,17 +1,27 @@
 body {
-    background-color: #869a9e;
+    background-color: hsl(190, 11%, 57%);
     font-family: "Michroma", sans-serif;
     margin: 0%;
+    cursor:
+    url(/images/cursor_1.gif),
+    auto;
 }
 
-
-section {
+h2{
     display: flex;
     justify-content: center;
-    align-items: center;
+    font-weight: unset;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
 }
 
-h1 {
+a:hover {
+    cursor: url(/images/cursor_3.gif),
+    auto;
+}
+
+#title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,15 +31,50 @@ h1 {
     font-size: 90px;
     height: 500px;
 }
-/* 
-h3 {
-    font-weight: normal;
+
+.entire-map {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
-p {
-    margin: 20px;
+.entire-map > #img-map {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-*/
+.entire-map .map-point {
+    position: absolute; 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.hovercontent {
+    display: none;
+    position: absolute;
+    color: hsl(190, 11%, 30%);
+    border: none;
+    background-color:transparent;
+    height: 100px;
+    width: 160px;
+}
+
+.a-point:hover+.hovercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+
+.flags {
+    height: 35px;
+    width: 70px;
+}
 
 #backbutton {
     background-image: url('/images/back_normal.png');

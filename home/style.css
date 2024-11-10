@@ -72,8 +72,31 @@ a:hover {
     height: 250px;
 }
 
-.nav:hover{
+#map_page {
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 10px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Michroma", sans-serif;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+#map_page:hover {
     background-color: #869a9e;
+    cursor: url(/images/cursor_3.gif),
+    auto;
+}
+.nav:hover {
+    background-color: #869a9e;
+    cursor: url(/images/crash_empty.gif), 
+    auto;
 }
 
 .gaps {
@@ -86,7 +109,7 @@ a:hover {
     height: 150px;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,12 +117,12 @@ footer{
     gap: 10px;
 }
 
-.footer_width{
+.footer_width {
     width: 30px;
     height: 30px;
 }
 
-.footer_icons:hover{
-    display: block;
+.footer_icons:hover {
+    /* display: block; */
     background: rgba(0, 0, 0, 0);
 }
