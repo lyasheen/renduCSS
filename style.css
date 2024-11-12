@@ -127,3 +127,26 @@ footer {
     /* display: block; */
     background: rgba(0, 0, 0, 0);
 }
+
+/* redirection */
+
+.redirection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Michroma", sans-serif;
+    font-size: 25px;
+    background-color: #bfae9d;
+    cursor:
+        url(/images/cursor_1.gif),
+        auto;
+}
+
+p .redirection {
+    width: 700px;
+}
+
+html, body .redirection {
+    height: 100%;
+}
