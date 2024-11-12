@@ -130,17 +130,12 @@ footer {
 
 /* redirection */
 
-.redirection {
+body .redirection {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "Michroma", sans-serif;
     font-size: 25px;
-    background-color: #bfae9d;
-    cursor:
-        url(/images/cursor_1.gif),
-        auto;
 }
 
 p .redirection {
