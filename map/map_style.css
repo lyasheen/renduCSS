@@ -3,7 +3,7 @@ body {
     font-family: "Michroma", sans-serif;
     margin: 0%;
     cursor:
-    url(images/cursor_1.gif),
+    url(../images/cursor_1.gif),
     auto;
 }
 
@@ -17,7 +17,7 @@ h2{
 }
 
 a:hover {
-    cursor: url(images/cursor_3.gif),
+    cursor: url(../images/cursor_3.gif),
     auto;
 }
 
@@ -77,14 +77,14 @@ a:hover {
 }
 
 #backbutton {
-    background-image: url('/images/back_normal.png');
+    background-image: url('../images/back_normal.png');
     height: 50px;
     width: 70px;
     background-size: cover;
 }
 
 #backbutton:hover {
-    background-image: url('/images/back.png');
+    background-image: url('../images/back.png');
     height: 50px;
     width: 70px;
     background-size: cover;
