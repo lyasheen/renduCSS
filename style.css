@@ -3,7 +3,7 @@ body {
     font-family: "Michroma", sans-serif;
     margin: 0%;
     cursor:
-        url(/images/cursor_1.gif),
+        url(images/cursor_1.gif),
         auto;
 }
 
@@ -50,7 +50,7 @@ a:visited {
 
 a:hover {
     color: hsl(133, 7%, 30%);
-    cursor: url(/images/cursor_3.gif),
+    cursor: url(images/cursor_3.gif),
         auto;
 }
 
@@ -90,12 +90,12 @@ a:hover {
 
 #map_page:hover {
     background-color: #869a9e;
-    cursor: url(/images/cursor_3.gif),
+    cursor: url(images/cursor_3.gif),
     auto;
 }
 .nav:hover {
     background-color: #869a9e;
-    cursor: url(/images/crash_empty.gif), 
+    cursor: url(images/crash_empty.gif), 
     auto;
 }
 
