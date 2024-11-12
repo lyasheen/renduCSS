@@ -91,12 +91,13 @@ a:hover {
 #map_page:hover {
     background-color: #869a9e;
     cursor: url(images/cursor_3.gif),
-    auto;
+        auto;
 }
+
 .nav:hover {
     background-color: #869a9e;
-    cursor: url(images/crash_empty.gif), 
-    auto;
+    cursor: url(images/crash_empty.gif),
+        auto;
 }
 
 .gaps {
